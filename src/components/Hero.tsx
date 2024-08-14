@@ -1,3 +1,4 @@
+import { HERO } from "@/constants";
 import SearchForm from "./hero/SearchForm";
 
 export default function Hero() {
@@ -8,10 +9,7 @@ export default function Hero() {
           <h1 className="m-4 text-center text-4xl text-white md:text-5xl lg:text-6xl">
             Discover Your Ideal Home here!
           </h1>
-          <p className="p-4 text-center text-slate-300">
-            Discover your dream home with our real estate services. Whether
-            you're looking to buy, sell, or rent, we're here to help.
-          </p>
+          <p className="p-4 text-center text-slate-300">{HERO.description}</p>
         </div>
         <SearchForm />
       </div>

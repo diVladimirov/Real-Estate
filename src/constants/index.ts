@@ -297,3 +297,8 @@ export const FOOTER = {
     },
   ],
 };
+
+export const HERO = {
+  description:
+    "Discover your dream home with our real estate services. Whether you're looking to buy, sell, or rent, we're here to help.",
+};
